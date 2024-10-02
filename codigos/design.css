@@ -6,7 +6,7 @@
 
 header{
     Width: 100%;
-    background-color: #202020;
+    background-color: #171717;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +26,7 @@ header{
 
 .logo-texto{
     margin-left: 20px;
-    color:#ffffffff;
+    color:#AD5757;
 }
 
 .menu li{
@@ -36,10 +36,14 @@ header{
 .menu li a{
     font-size: 24px;
     text-decoration: none;
-    color: #ffffffff;
+    color: #AD5757;
     text-transform: uppercase;
     padding: 15px 25px;
 }
 .menu li a:hover{
-    background-color: rgba(100,100,100, 7);
+    background-color: rgba(100,100,100, 0.2);
+}
+
+.body{
+    background-color: black;
 }
